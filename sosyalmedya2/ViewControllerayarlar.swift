@@ -1,4 +1,7 @@
 import UIKit
+import Firebase
+import FirebaseAuth
+import FirebaseCore
 
 class ViewControllerayarlar: UIViewController {
 
@@ -17,6 +20,14 @@ class ViewControllerayarlar: UIViewController {
 
      
         navigationController?.navigationBar.tintColor = UIColor.black
+    }
+    @IBAction func cikisyapbutton(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+            performSegue(withIdentifier: "tocıkısvc", sender: nil)
+        } catch {
+            print("hata")
+        }
     }
 }
 
