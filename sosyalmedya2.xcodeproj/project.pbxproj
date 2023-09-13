@@ -15,7 +15,6 @@
 		B53F1A3C2A976E3100729E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53F1A3B2A976E3100729E78 /* Assets.xcassets */; };
 		B53F1A3F2A976E3100729E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53F1A3D2A976E3100729E78 /* LaunchScreen.storyboard */; };
 		B53F1A472A97721200729E78 /* ViewControllergiris.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F1A462A97721100729E78 /* ViewControllergiris.swift */; };
-		B588251A2AB07A5D002304DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58825192AB07A5D002304DF /* MainViewController.swift */; };
 		B5A27BF92A97887500418C0F /* ViewControlleranasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A27BF82A97887400418C0F /* ViewControlleranasayfa.swift */; };
 		B5A27BFB2A97950D00418C0F /* ViewControllerdmkisisecimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A27BFA2A97950D00418C0F /* ViewControllerdmkisisecimi.swift */; };
 		B5A8878E2AB06A1400FA1943 /* uploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A8878D2AB06A1400FA1943 /* uploadViewController.swift */; };
@@ -70,7 +69,6 @@
 		B53F1A3E2A976E3100729E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B53F1A402A976E3100729E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B53F1A462A97721100729E78 /* ViewControllergiris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllergiris.swift; sourceTree = "<group>"; };
-		B58825192AB07A5D002304DF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B5A27BF82A97887400418C0F /* ViewControlleranasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlleranasayfa.swift; sourceTree = "<group>"; };
 		B5A27BFA2A97950D00418C0F /* ViewControllerdmkisisecimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerdmkisisecimi.swift; sourceTree = "<group>"; };
 		B5A8878D2AB06A1400FA1943 /* uploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadViewController.swift; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 		B53F1A232A976E3000729E78 = {
 			isa = PBXGroup;
 			children = (
-				B58825192AB07A5D002304DF /* MainViewController.swift */,
 				B53F1A2E2A976E3000729E78 /* sosyalmedya2 */,
 				B53F1A2D2A976E3000729E78 /* Products */,
 			);
@@ -280,7 +277,6 @@
 				B5A887972AB06F7000FA1943 /* postclass.swift in Sources */,
 				B5B0912E2A97A24B0029C569 /* ViewControllermsjyontemi.swift in Sources */,
 				B5AC31B82A989CE6004EE9E1 /* ViewControllertakipciyonet.swift in Sources */,
-				B588251A2AB07A5D002304DF /* MainViewController.swift in Sources */,
 				B53F1A342A976E3000729E78 /* ViewController.swift in Sources */,
 				B5A887902AB06E1A00FA1943 /* feedcell.swift in Sources */,
 				B5FCDBEC2A97EBCB0035C1A2 /* ViewControllerhesapayari.swift in Sources */,

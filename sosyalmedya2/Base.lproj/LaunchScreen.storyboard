@@ -16,16 +16,40 @@
                     <view key="view" contentMode="scaleToFill" id="Hef-Tu-lAi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="_f756f6d6-1858-4450-b1c4-0b405caa8223" translatesAutoresizingMaskIntoConstraints="NO" id="41s-j5-JVd">
+                                <rect key="frame" x="0.0" y="0.0" width="429" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="_be66f3f6-1ba5-4aba-ae28-80ad8e2976e7" translatesAutoresizingMaskIntoConstraints="NO" id="Llj-Wo-p1g">
+                                <rect key="frame" x="129" y="368" width="170" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="uygulama adı" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUA-Vt-it8">
+                                <rect key="frame" x="129" y="558" width="170" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Fjg-H3-DDP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="41s-j5-JVd" firstAttribute="top" secondItem="Fjg-H3-DDP" secondAttribute="top" id="2ej-12-5Z7"/>
+                            <constraint firstItem="Fjg-H3-DDP" firstAttribute="trailing" secondItem="41s-j5-JVd" secondAttribute="trailing" id="Dd3-Jr-8pX"/>
+                            <constraint firstItem="41s-j5-JVd" firstAttribute="leading" secondItem="Fjg-H3-DDP" secondAttribute="leading" id="Knd-4H-Fb4"/>
+                            <constraint firstItem="Fjg-H3-DDP" firstAttribute="bottom" secondItem="41s-j5-JVd" secondAttribute="bottom" id="y3k-K0-6aY"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xbw-q3-sS6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-175" y="195"/>
+            <point key="canvasLocation" x="-175.36231884057972" y="194.86607142857142"/>
         </scene>
     </scenes>
     <resources>
+        <image name="_be66f3f6-1ba5-4aba-ae28-80ad8e2976e7" width="1024" height="1024"/>
+        <image name="_f756f6d6-1858-4450-b1c4-0b405caa8223" width="1024" height="1024"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

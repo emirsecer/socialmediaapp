@@ -73,6 +73,10 @@ class uploadViewController: UIViewController,UIImagePickerControllerDelegate, UI
                                         self.hataMesajiGoster(title: "HATA", message: error?.localizedDescription ?? "Hata aldınız")
                                     } else {
                                         print("başarılı oldunuz yüklendi.")
+                                        self.uploadimage.image = UIImage(named: "gorselsec")
+                                        self.yorumtext.text = ""
+                                        self.tabBarController?.selectedIndex = 0
+                                        
                                     }
                                 }
                             }

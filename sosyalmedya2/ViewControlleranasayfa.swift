@@ -14,7 +14,7 @@ import SDWebImage
 
 
 
-class feedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewControlleranasayfa: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableviewanasayfa: UITableView!
     
     var postdizisi = [post]()
